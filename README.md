@@ -55,11 +55,13 @@ These findings translate directly into business action: target retention efforts
 ## Interactive Dashboard
 
 To make these findings accessible to non-technical stakeholders, the key insights were built into an interactive Tableau dashboard.
-[View the live interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/urooj.fatima4549/viz/TelcoCustomerChurnAnalysis_17818316850600/CustomerChurnAnalysis)
+[View the live interactive dashboard on Tableau Public
+(https://public.tableau.com/app/profile/urooj.fatima4549/viz/TelcoCustomerChurnAnalysis_17818316850600/CustomerChurnAnalysis)
 
 ## Show Image
 
 View the live interactive dashboard on Tableau Public
+dashboard_preview.png
 
 ### The dashboard includes:
 
