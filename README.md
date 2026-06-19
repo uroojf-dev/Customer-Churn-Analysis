@@ -56,17 +56,22 @@ These findings translate directly into business action: target retention efforts
 
 To make these findings accessible to non-technical stakeholders, the key insights were built into an interactive Tableau dashboard.
 
-![Customer Churn Dashboard](dashboard_preview.png)
+## Show Image
 
-**[View the live interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/urooj.fatima4549/viz/TelcoCustomerChurnAnalysis_17818316850600/CustomerChurnAnalysis)**
+View the live interactive dashboard on Tableau Public
 
-The dashboard includes:
-- Overall churn rate across the customer base
-- Churn breakdown by contract type
-- Churn patterns by customer tenure
-- Churn distribution by monthly charges
+### The dashboard includes:
 
-The Tableau workbook file (`.twbx`) is also included in this repo for anyone who wants to explore it directly in Tableau Desktop or Tableau Public.
+
+A headline KPI tile showing the overall churn rate (26.5%)
+Churn breakdown by contract type, with a per-group churn rate shown on hover
+Churn patterns by customer tenure
+Churn distribution by monthly charges, using $10 bins for readability instead of a raw scatter/line
+Cross-filtering between all four charts — clicking a segment in one chart filters the rest of the dashboard
+One-line written takeaways under each chart, plus an executive summary at the top
+
+
+The Tableau workbook file (.twbx) is also included in this repo for anyone who wants to explore it directly in Tableau Desktop or Tableau Public.
 
 ## Tech Stack
 
@@ -79,17 +84,15 @@ Exploratory data analysis and data visualization
 Categorical encoding and feature scaling
 Supervised machine learning (classification)
 Model evaluation and interpretation
-Building interactive dashboards for stakeholder-facing reporting
+Building interactive, cross-filtered dashboards using calculated fields (including LOD expressions) for stakeholder-facing reporting
 Translating technical results into business-relevant insights
 
 ## How to Run
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
+bashpip install pandas numpy scikit-learn matplotlib seaborn
 jupyter notebook customer_churn_analysis.ipynb
-```
 
-To explore the dashboard, either click the live link above or open `CustomerChurnAnalysis.twbx` in [Tableau Public](https://public.tableau.com/) (free).
+To explore the dashboard, either click the live link above or open CustomerChurnAnalysis.twbx in Tableau Public (free).
 
 ## Future Improvements
 
