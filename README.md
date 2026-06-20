@@ -58,11 +58,10 @@ To make these findings accessible to non-technical stakeholders, the key insight
 
 [View the live interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/urooj.fatima4549/viz/TelcoCustomerChurnAnalysis_17818316850600/CustomerChurnAnalysis)
 
-## Show Image
+## Dashboard Image
 
 ![Customer Churn Dashboard](dashboard_preview.png)
 
- **[View the live interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/urooj.fatima4549/viz/TelcoCustomerChurnAnalysis_17818316850600/CustomerChurnAnalysis)**
 
 ### The dashboard includes:
 
